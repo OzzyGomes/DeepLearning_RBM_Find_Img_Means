@@ -11,13 +11,13 @@ library("RBM")
 data("MNIST")
 
 
-image(matrix(MNIST$trainX[3,1], nrow = 28))
+image(matrix(MNIST$trainX[3,1], nrow = 28)) # apenas um teste
 
 #Treina o Madelo
 set.seed(0)
 
 train <- MNIST$trainX
-
+#                     numero de epocas  camadas escodicas
 modelRBM <- RBM(x=train, n.iter = 1000, n.hidden = 100, size.minibatch = 10, plot = TRUE)
 
 #reconstroi a imagem
