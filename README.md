@@ -5,7 +5,6 @@
 <h2>Table of Contents</h2>
 <ul>
     <li><a href="#installation">Installation</a></li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#results">Results</a></li>
 </ul>
 
@@ -13,4 +12,6 @@
 
 <p>To use this code, you will need to install the <code>RBM</code> package developed by TimoMatzen. You can install it directly from GitHub using the following code:</p>
 
+<h2>Results</h2>
+<p>This code allows you to train RBM and DBN models on the MNIST dataset. RBM can be used for unsupervised learning tasks, and DBN combines multiple RBMs to achieve more accurate results. Experiment with different hyperparameters and training options to optimize your results for various machine learning tasks.</p>
 
